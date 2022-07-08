@@ -12,7 +12,7 @@ const Button = styled('button', {
   width: '70px',
   height: '70px',
 
-  backgroundColor: '#FFEA7A',
+  backgroundColor: '#8d65df',
 
   fontSize: '1.3em',
 
@@ -21,7 +21,7 @@ const Button = styled('button', {
   cursor: 'pointer',
 
   '&:hover': {
-    backgroundColor: '#ffd07a',
+    backgroundColor: '#c897f5',
   },
 
   '& > img': {

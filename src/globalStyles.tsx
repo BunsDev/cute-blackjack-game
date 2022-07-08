@@ -10,7 +10,7 @@ const globalStyles = globalCss({
 
   body: {
     position: 'relative',
-    backgroundColor: '#ff6395',
+    backgroundColor: '#b383ff', // light purple
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
@@ -77,7 +77,7 @@ const globalStyles = globalCss({
     cursor: 'pointer',
 
     '&:hover': {
-      backgroundColor: '#ffd07a',
+      backgroundColor: '#691bd1',
       '&:before': {
         borderColor: 'transparent #ffd07a transparent ',
       },

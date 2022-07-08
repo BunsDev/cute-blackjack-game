@@ -17,7 +17,7 @@ const Card = styled('div', {
 
   borderRadius: '23px',
 
-  background: '#be3662',
+  background: '#8d65df',
 
   zIndex: '20',
 

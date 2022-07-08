@@ -55,7 +55,7 @@ function App() {
           <div className="flex">
             <Computer></Computer>
             <div>
-              <div
+              {/* <div
                 onClick={() => {
                   openTutorial(true);
                 }}
@@ -63,7 +63,7 @@ function App() {
               >
                 {' '}
                 how to play?
-              </div>
+              </div> */}
               <Wallet wallet={wallet}></Wallet>
             </div>
           </div>

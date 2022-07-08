@@ -13,7 +13,7 @@ const Div = styled('div', {
   width: '130px',
   height: '60px',
 
-  background: '#E54C7E',
+  background: '#9756f7',
 
   display: 'flex',
   alignItems: 'center',

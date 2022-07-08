@@ -19,7 +19,7 @@ const Div = styled('div', {
   alignItems: 'center',
   justifyContent: 'center',
 
-  background: '#ff6395',
+  background: '#b383ff', // light purple
 
   '& div': {
     width: '300px',
