@@ -6,7 +6,7 @@ import {
 } from './actions/generateHand';
 
 import Card from './components/card';
-import Computer from './components/computer';
+import Anubis from './components/anubis';
 import HitButton from './components/hitButton';
 import StandButton from './components/standButton';
 import Tutorial from './components/tutorial';
@@ -53,7 +53,7 @@ function App() {
           </div>
         ) : (
           <div className="flex">
-            <Computer></Computer>
+            <Anubis></Anubis>
             <div>
               {/* <div
                 onClick={() => {
