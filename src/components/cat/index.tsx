@@ -2,8 +2,8 @@ import { styled } from '@stitches/react';
 import catAvatar from './catArt.png';
 
 const CatAvatar = styled('div', {
-  width: '400px',
-  height: '400px',
+  width: '300px',
+  height: '300px',
 
   background: `url(${catAvatar})`,
 });
