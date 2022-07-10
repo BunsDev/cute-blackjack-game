@@ -1,7 +1,7 @@
 import { styled } from '@stitches/react';
 import Chips from '../chips';
 
-import chips from './PokerChips.png';
+// import chips from './PokerChips.png';
 
 interface IWallet {
   wallet: number;
@@ -10,7 +10,7 @@ interface IWallet {
 const Div = styled('div', {
   marginTop: '15px',
 
-  width: '130px',
+  width: '300px',
   height: '60px',
 
   background: '#9756f7',
@@ -18,7 +18,7 @@ const Div = styled('div', {
   display: 'flex',
   alignItems: 'center',
 
-  borderRadius: '12px',
+  borderRadius: '24px',
 
   '& > h1': {
     fontSize: '1.3em',

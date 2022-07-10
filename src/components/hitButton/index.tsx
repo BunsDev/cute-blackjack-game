@@ -8,7 +8,7 @@ const Button = styled('button', {
   border: 'none',
   borderRadius: '23px',
 
-  width: '180px',
+  width: '220px',
   height: '70px',
 
   backgroundColor: '#150000',

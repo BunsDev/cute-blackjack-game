@@ -6,7 +6,7 @@ import {
 } from './actions/generateHand';
 
 import Card from './components/card';
-import Computer from './components/computer';
+import Cat from './components/cat';
 import HitButton from './components/hitButton';
 import StandButton from './components/standButton';
 import Tutorial from './components/tutorial';
@@ -52,9 +52,9 @@ function App() {
             <WinnerCard winner={winner.winner}></WinnerCard>
           </div>
         ) : (
-          <div className="flex">
-            <Computer></Computer>
-            <div>
+         <div className="block">
+            <Cat></Cat>
+          <div>
               {/* <div
                 onClick={() => {
                   openTutorial(true);
