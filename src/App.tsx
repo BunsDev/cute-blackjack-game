@@ -54,7 +54,7 @@ function App() {
         ) : (
          {/* <div className="flex"> */}
             <Cat></Cat>
-          {/*  <div>  */}
+          <div> 
               {/* <div
                 onClick={() => {
                   openTutorial(true);
@@ -66,7 +66,7 @@ function App() {
               </div> */}
               <Wallet wallet={wallet}></Wallet>
             </div>
-          </div>
+          {/* </div> */}
         )}
 
         <div className="deck">
