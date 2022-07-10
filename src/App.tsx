@@ -52,9 +52,9 @@ function App() {
             <WinnerCard winner={winner.winner}></WinnerCard>
           </div>
         ) : (
-         {/* <div className="flex"> */}
+         <div className="block">
             <Cat></Cat>
-          <div> 
+          <div>
               {/* <div
                 onClick={() => {
                   openTutorial(true);
@@ -66,7 +66,7 @@ function App() {
               </div> */}
               <Wallet wallet={wallet}></Wallet>
             </div>
-          {/* </div> */}
+          </div>
         )}
 
         <div className="deck">
