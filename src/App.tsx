@@ -52,9 +52,9 @@ function App() {
             <WinnerCard winner={winner.winner}></WinnerCard>
           </div>
         ) : (
-          <div className="flex">
+         {/* <div className="flex"> */}
             <Cat></Cat>
-            <div>
+          {/*  <div>  */}
               {/* <div
                 onClick={() => {
                   openTutorial(true);
